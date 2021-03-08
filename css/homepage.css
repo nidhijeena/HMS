@@ -1,0 +1,181 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin: 0;
+}
+.logo
+{
+    display: inline;
+    background-color: blue;
+}
+.logo img
+{
+    width: 70px;
+    height: 70px;
+}
+.ListOfLinks {
+    padding-left:30%;
+    text-align: center;
+    list-style: inside;
+  }
+.navigation {
+    overflow: hidden;
+    background-color: rgb(14, 33, 85);
+  margin-left: 5%;
+  margin-top: 2%;
+  }
+  .navigation a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.navigation a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+.signupin
+{
+    border: 3px rgb(162, 194, 22) solid;
+    border-radius: 4px;
+    font-size: medium;
+   margin-left: 40%    ;
+}
+.HomePageImage
+{
+   float:right;
+   width: 100%;
+}
+.TextOverImage
+{
+    position: absolute;
+    left:150px;
+    top: 180px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .ThirdDivision
+  {
+    margin-left: 5%;
+    height: 1150px;
+    /* width: 1500px; */
+    /* background-color: black; */
+  }
+  .d1
+  {
+    position: static; 
+    background-color: rgb(21, 97, 163);
+    width: 250px;
+    height: 260px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    border: 3px solid rgb(190, 38, 38);
+    border-radius: 10px;
+}
+.FourthDivision
+{
+  height: 300px;
+  margin: 5%;
+  /* background-image: url('img/services-bg.jpg'); */
+  /* background-color: rgb(218, 23, 23); */
+}
+.FourOne
+{
+  /* height: 500px; */
+  margin-left: 5%;
+  margin-top: 2%;
+  float: left;
+  /* background-color: rgb(9, 185, 9); */
+}
+.FourTwo
+{
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* padding: 5%;
+  padding-top: 2%; */
+  /* background-color: rgb(17, 6, 165); */
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.activate, .accordion:hover {
+  background-color: #ccc;
+}
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.activate:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.FifthDivision
+{
+  margin: 0% 10% 5% 10%;
+  background-color: black;
+}
+.SixthDivision
+{
+  height: 200px;
+  margin:10%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  /* background-color: chartreuse; */
+}
+.SixOne
+{
+  height: 100%;
+  margin-left: 5%;
+  width:28%;
+  float: left;
+  /* background-color: brown; */
+}
+.SixOne a
+{
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(255,255,255);
+}
+.SixthTwo
+{
+  height:100px;
+  /* background-color: darkblue; */
+}
+.SixthThree
+{
+  text-align: left;
+  /* background-color: #e60202; */
+}
+.SocialMeida
+{
+  font-size: 500%;
+  margin: 0% 30%;
+}
